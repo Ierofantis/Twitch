@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  border 0;
+}
+
+.container{
+  width: 600px;
+    margin: 0 auto;
+
+  
+}
+
+.status-icon{
+  float:right;
+  margin-top:15px;
+}
+.smaller-image {
+  width: 80px;
+  margin: 0px 8px 0px 0px;
+}
+
+
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+    
+  }
+  .nav-justified > li > a {
+    margin: 0;
+    border-radius: 0;
+  }
+
+h1 {
+  font-size: 160%;
+  color: white;
+  text-align: center;
+}
+#listOfStreamings{
+  font-size: 180%;
+  width:600px;   
+  border: solid;
+  
+}
+body{
+  background-color:#48709c;
+  
+}
