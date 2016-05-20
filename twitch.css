@@ -1,48 +1,58 @@
-*{
-  padding: 0;
-  margin: 0;
-  border 0;
+body {
+  background-color: #4bd6d3;
 }
 
-.container{
-  width: 600px;
-    margin: 0 auto;
-
-  
-}
-
-.status-icon{
-  float:right;
-  margin-top:15px;
-}
-.smaller-image {
-  width: 80px;
-  margin: 0px 8px 0px 0px;
-}
-
-
-  .nav-justified > li {
-    display: table-cell;
-    width: 1%;
-    
-  }
-  .nav-justified > li > a {
-    margin: 0;
-    border-radius: 0;
-  }
-
-h1 {
-  font-size: 160%;
+.game {
   color: white;
+  position: absolute;
+  font-size: 15px;
+  margin-top: 2.3em;
+}
+
+#twitch {
+  margin-top: 60px;
+  padding: 20px;
+  text-align:center; 
+  
+}
+
+.item {
+  margin-bottom: 10px;
+  border:white solid 15px ;
+  background-color:#5b7ec9;
+   
+}
+
+.item img {
+  text-align: left;
+  width: 10%;
+  border-radius: 150px;
+}
+
+.item p {
+  display: inline-block;
+  padding-left: 270px;
+}
+
+.username {
+  position:absolute;
+  font-size: 20px;
+  color: white;
+}
+
+h4 {
+  font-size: 60px;
+  color: #5b7ec9;
   text-align: center;
+  font-weight:900;
 }
-#listOfStreamings{
-  font-size: 180%;
-  width:600px;   
-  border: solid;
-  
+
+.online {
+  font-size: 20px;
+  color: white;
 }
-body{
-  background-color:#48709c;
-  
+
+.offline {
+  font-size: 20px;
+  color: black;
 }
